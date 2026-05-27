@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b8f5be7d-d058-4515-b4f8-949bd26f4784</testSuiteGuid>
+   <testCaseLink>
+      <guid>3145de29-0a89-47bb-bcf9-f6526ec86079</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_DDT/TC_Login_DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>db3b29c1-1156-4f7a-8559-a2276cd876c2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>db3b29c1-1156-4f7a-8559-a2276cd876c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5916a5d6-ee3c-469f-8b55-551bc7d5b9a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>db3b29c1-1156-4f7a-8559-a2276cd876c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a47217f5-0f68-4936-91ff-dfc2257c32fc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
